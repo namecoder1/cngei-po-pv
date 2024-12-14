@@ -71,11 +71,7 @@ const HorizontalProgressionPage = () => {
               <button
                 key={color}
                 onClick={() => handleFilter("color", color)}
-                className={`border rounded-lg duration-200 ${
-                  filterByColor === color
-                    ? `${tailwindColors[color]} ${selectedBgColors[color]}`
-                    : tailwindColors[color]
-                } px-3 py-1`}
+                className={`border rounded-lg duration-200 ${filterByColor === color ? `${tailwindColors[color]} ${selectedBgColors[color]}` : tailwindColors[color]} px-3 py-1`}
               >
                 {colorDescriptions[color]} {filterByColor === color && "✕"}
               </button>
@@ -89,10 +85,8 @@ const HorizontalProgressionPage = () => {
               <button
                 key={color}
                 onClick={() => handleFilter("border", color)}
-                className={`border rounded-lg duration-200 ${
-                  filterByBorder === color
-                    ? `${tailwindColors[color]} ${selectedBgColors[color]}`
-                    : tailwindColors[color]} px-3 py-1`}>
+                className={`border rounded-lg duration-200 ${filterByBorder === color ? `${tailwindColors[color]} ${selectedBgColors[color]}` : tailwindColors[color]} px-3 py-1`}
+              >
                 {borderDescriptions[color]} {filterByBorder === color && "✕"}
               </button>
             ))}
