@@ -1,0 +1,67 @@
+[
+  {
+		"id": 1,
+    "name": "Carattere",
+    "description": "Aiuta i bambini e educa il prossimo.",
+		"tasks": [
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus."
+		],
+    "image": "/images/po/1.jpg",
+    "color": "yellow",
+		"border": "blue"
+  },
+  {
+		"id": 2,
+    "name": "Olimpia",
+    "description": "Corporeità",
+		"tasks": [
+			"Illustrare le regole e le attrezzature dello sport praticato, la storia, le curiosità ed i maggiori esponenti. Conoscere le principali funzioni del corpo umano (respirazione, circolazione, apparato muscolare, ecc.) e I principi della nutrizione in relazione allo sport praticato",
+			"Praticare correntemente uno sport individuale. Dimostrare attraverso una sfida tecnica le abilità nello sport praticato. Elaborare un piano di miglioramento delle proprie prestazioni nello sport praticato di almeno tre mesi, mostrandone i risultati.",
+			"Organizzare una sessione di allenamento dello sport praticato con la propria ptg/eqp e/o reparto."
+		],
+    "image": "/images/po/2.jpg",
+    "color": "yellow",
+		"border": "green"
+  },
+  {
+		"id": 3,
+    "name": "Creatività",
+    "description": "Sei un creativo innato.",
+		"tasks": [
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus."
+		],
+    "image": "/images/po/3.jpg",
+    "color": "yellow",
+		"border": "yellow"
+  },
+  {
+		"id": 4,
+    "name": "Impegno Civile",
+    "description": "Sei una persona curiosa e attenta.",
+		"tasks": [
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus."
+		],
+    "image": "/images/po/4.jpg",
+    "color": "yellow",
+		"border": "red"
+  },
+  {
+		"id": 5,
+    "name": "Abilità Acquatiche",
+    "description": "Corporeità",
+		"tasks": [
+			"Conoscere le attrezzature principali per lo snorkeling, le loro componenti, lo scopo e le buone pratiche per mantenerle in buono stato. Conoscere le tecniche di apnea e gli effetti provocati sul corpo umano (rischi, compensazione, scambi gassosi, ...).",
+			"Sapersi calare in acqua indossando correttamente l'attrezzatura (pinne, maschera, boccaglio, ecc.) per condurre l’esplorazione di ambienti acquatici vicino alla riva in sicurezza.",
+			"Con l'aiuto della ptg/eqp simulare un intervento di soccorso in acqua dimostrando di saper recuperare un compagno privo di sensi riportandolo in superficie, a riva o su un’imbarcazione."
+		],
+    "image": "/images/po/5.png",
+    "color": "green",
+		"border": "green"
+  }
+]

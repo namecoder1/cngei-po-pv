@@ -1,0 +1,74 @@
+[
+  {
+		"id": 1,
+    "name": "Prima Stella",
+    "description": "Competizioni su terreni orizzontali.",
+		"test": [
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus."
+		],
+    "image": "/images/pv/1.jpg",
+    "category": "Verde"
+  },
+  {
+		"id": 2,
+    "name": "Seconda Stella",
+    "description": "Gare su terreni pianeggianti.",
+		"test": [
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus."
+		],
+    "image": "/images/pv/2.jpg",
+    "category": "Verde"
+  },
+  {
+		"id": 3,
+    "name": "Terza Stella",
+    "description": "Gare su terreni pianeggianti.",
+		"test": [
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus."
+		],
+    "image": "/images/pv/3.jpg",
+    "category": "Verde"
+  },
+  {
+		"id": 4,
+    "name": "Grado 1",
+    "description": "Gare su terreni pianeggianti.",
+		"test": [
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus."
+		],
+    "image": "/images/pv/4.jpg",
+    "category": "Verde"
+  },
+  {
+		"id": 5,
+    "name": "Grado 2",
+    "description": "Gare su terreni pianeggianti.",
+		"test": [
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus."
+		],
+    "image": "/images/pv/cycling.jpg",
+    "category": "Verde"
+  },
+  {
+		"id": 6,
+    "name": "Grado 3",
+    "description": "Gare su terreni pianeggianti.",
+		"test": [
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut enim vitae augue vehicula venenatis. Sed quis magna eu augue vestibulum maximus."
+		],
+    "image": "/images/pv/cycling.jpg",
+    "category": "Verde"
+  }
+]
