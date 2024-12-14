@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from "react";
 import Card from "@/components/blocks/card";
-import { borderDescriptions, colorDescriptions, tailwindColors, selectedBgColors } from "@/lib/maps";
+import { borderDescriptions, colorDescriptions } from "@/lib/maps";
 
 export type HorizontalType = {
   id: number;
@@ -51,8 +51,6 @@ const HorizontalProgressionPage = () => {
   return (
     <div className="mt-10">
       <h1 className="text-3xl font-semibold">Specialità Orizzontali</h1>
-
-      {/* Barra di Ricerca */}
       <div className="my-4">
         <input
           type="text"
@@ -62,38 +60,22 @@ const HorizontalProgressionPage = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
-
-      {/* Filtri */}
       <section className="flex flex-col md:flex-row gap-4">
         <div className="flex items-center gap-2">
           <div className="gap-3 grid grid-cols-2 w-full sm:flex items-center justify-center">
-            {Object.keys(colorDescriptions).map((color) => (
-              <button
-                key={color}
-                onClick={() => handleFilter("color", color)}
-                className={`border rounded-lg duration-200 ${filterByColor === color ? `${tailwindColors[color]} ${selectedBgColors[color]}` : tailwindColors[color]} px-3 py-1`}
-              >
-                {colorDescriptions[color]} {filterByColor === color && "✕"}
-              </button>
-            ))}
+            <button onClick={() => handleFilter("color", 'yellow')} className={`border border-yellow-300 rounded-lg duration-200 px-3 py-1 hover:border-yellow-400 hover:bg-yellow-200 ${filterByColor == 'yellow' && (`bg-yellow-200 border-yellow-400`)}`}>Personali {filterByColor === 'yellow' && "✕"}</button>
+            <button onClick={() => handleFilter("color", 'green')} className={`border border-green-300 rounded-lg duration-200 px-3 py-1 hover:border-green-400 hover:bg-green-200 ${filterByColor == 'green' && (`bg-green-200 border-green-400`)}`}>Scout {filterByColor === 'green' && "✕"}</button>
           </div>
         </div>
-
         <div className="flex items-center gap-2">
           <div className="gap-3 grid grid-cols-2 grid-rows-2 w-full sm:flex items-center justify-start">
-            {Object.keys(borderDescriptions).map((color) => (
-              <button
-                key={color}
-                onClick={() => handleFilter("border", color)}
-                className={`border rounded-lg duration-200 ${filterByBorder === color ? `${tailwindColors[color]} ${selectedBgColors[color]}` : tailwindColors[color]} px-3 py-1`}
-              >
-                {borderDescriptions[color]} {filterByBorder === color && "✕"}
-              </button>
-            ))}
+            <button onClick={() => handleFilter("border", 'green')} className={`border border-green-300 rounded-lg duration-200 px-3 py-1 hover:border-green-400 hover:bg-green-200 ${filterByBorder == 'green' && ('bg-green-200 border-r-green-400')}`}>Corporeità {filterByBorder === 'green' && '✕'}</button>
+            <button onClick={() => handleFilter("border", 'red')} className={`border border-red-300 rounded-lg duration-200 px-3 py-1 hover:border-red-400 hover:bg-red-200 ${filterByBorder == 'red' && ('bg-red-200 border-r-red-400')}`}>Impegno Civile {filterByBorder === 'red' && '✕'}</button>
+            <button onClick={() => handleFilter("border", 'yellow')} className={`border border-yellow-300 rounded-lg duration-200 px-3 py-1 hover:border-yellow-400 hover:bg-yellow-200 ${filterByBorder == 'yellow' && ('bg-yellow-200 border-r-yellow-400')}`}>Creatività {filterByBorder === 'yellow' && '✕'}</button>
+            <button onClick={() => handleFilter("border", 'blue')} className={`border border-blue-300 rounded-lg duration-200 px-3 py-1 hover:border-blue-400 hover:bg-blue-200 ${filterByBorder == 'blue' && ('bg-blue-200 border-r-blue-400')}`}>Carattere {filterByBorder === 'blue' && '✕'}</button>
           </div>
         </div>
       </section>
-
       <div className="mt-4 text-lg font-medium text-gray-700">
         {filterByColor || filterByBorder ? (
           <p>
@@ -111,15 +93,11 @@ const HorizontalProgressionPage = () => {
           <p>Nessun filtro selezionato</p>
         )}
       </div>
-
-      {/* Risultati filtrati */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-4">
         {filteredData.map((item) => (
           <Card data={item} key={item.id} />
         ))}
       </div>
-
-      {/* Nessun risultato */}
       {filteredData.length === 0 && (
         <p className="text-center text-gray-500 mt-4">Nessun risultato trovato.</p>
       )}

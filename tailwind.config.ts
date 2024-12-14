@@ -10,10 +10,6 @@ const config: Config = {
   theme: {
   	extend: {
   		colors: {
-				green: '#00FF00',
-        red: '#FF0000',
-        yellow: '#FFFF00',
-        blue: '#0000FF',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -55,12 +51,6 @@ const config: Config = {
   				'5': 'hsl(var(--chart-5))'
   			}
   		},
-			borderColor: {
-        green: '#00FF00',
-        red: '#FF0000',
-        yellow: '#FFFF00',
-        blue: '#0000FF',
-      },
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
