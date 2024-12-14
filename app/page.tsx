@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -14,7 +13,7 @@ export default function Home() {
         </p>
       </div>
       <div className="mt-16">
-        <h2 className="font-semibold text-xl">Cos'è?</h2>
+        <h2 className="font-semibold text-xl">Cosa è?</h2>
         <ul className="list-decimal ml-4">
           <li>
             <p>

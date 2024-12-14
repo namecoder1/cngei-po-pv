@@ -1,8 +1,6 @@
 import React from 'react'
 import { HorizontalType } from '@/app/progressione-orizzontale/page'
 
-import { DotIcon } from 'lucide-react'
-
 import {
   AlertDialog,
   AlertDialogCancel,
@@ -14,7 +12,6 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog"
 import Image from 'next/image'
-import { Button } from '../ui/button'
 
 const Card = ({ data } : { data: HorizontalType }) => {
 	const { name, description, tasks, image, color, border } = data
