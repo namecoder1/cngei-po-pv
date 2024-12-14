@@ -92,9 +92,7 @@ const HorizontalProgressionPage = () => {
                 className={`border rounded-lg duration-200 ${
                   filterByBorder === color
                     ? `${tailwindColors[color]} ${selectedBgColors[color]}`
-                    : tailwindColors[color]
-                } px-3 py-1`}
-              >
+                    : tailwindColors[color]} px-3 py-1`}>
                 {borderDescriptions[color]} {filterByBorder === color && "✕"}
               </button>
             ))}
